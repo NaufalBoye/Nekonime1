@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS\homeStyle.css">
+    <script src="Javascript/SlideShow.js"></script>
+
+</head>
+<body onload="showDivs(slideIndex)">
+
+    <header>
+        <img src="Image/Header.png" alt="HEADERKU" width="100%"
+        height="100%">
+
+        <div class="main">
+            <ul>
+                <li class="active"><a href="home.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="community.html">Community</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="title">
+        <h1>Movienime</h1>
+    </div>
+    <div class="container">
+        <p>Kami menyebutnya basecamp movie&anime lovers karena disitus ini anda bisa meminjam koleksi film dan anime terlengkap se-Indonesia,
+            kami menawarkan harga yang murah dan jaminan kaset yang aman sehingga pelanggan tidak perlu khawatir tentang isi dari kaset tersebut.<br>
+            Produk kami legal dan berizin bukan film ataupun anime bajakan, kami berbisnis bukan merampok, Ini adalah tempat bagi para otaku dan wibu untuk bisa menonton anime yang mereka sukai,
+            yang baru rilis ataupun yang klasik semuanya tersedia lengkap disini.<br><br>
+            Eitss, bukan hanya wibu dan otaku saja, masih banyak film film, box office, kekorean, sampai bollywood pun ada semuanya disini.. iyaa disini:)
+        </p>
+    </div>
+    
+    <div class="Promotion">   
+        
+        <h1>Just In!!</h1>
+        <div class="PromotionImage" style="max-width: 500px;">
+            <div class="slide">
+            <img src="Image/HumanLost.jpg"  style="width:100%" >
+            <video src="Video/「HUMAN LOST 人間失格」Official  Main Trailer 【2019年11月29日(金)全国公開】.mp4" width="420" height="345" class="video" controls></video>
+            <div class="text">Human Lost: Ningen Shikaku</div>
+            </div>
+            <div class="slide">
+            <img src="Image/HathawayFlash.jpg"  style="width: 100%">
+            <video src="Video/“Mobile Suit Gundam Hathaway” Teaser Trailer 2（EN sub）.mp4" width="420" height="345" class="video" controls>
+
+            </video>
+            <div class="text">Mobile Suit Gundam: Hathaway Flash</div>
+            </div>
+            <div class="slide">
+            <img src="Image/Ultraman.png" style="width: 70%; position: relative; left: 10%;">
+            <video src="Video/Ultraman _ Official Trailer [HD] _ Netflix.mp4" width="420" height="345" class="video" controls></video>
+            <div class="text">Ultraman</div>
+            </div>
+            <button class="buttonLeft" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="buttonRight" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+    </div> 
+            
+        
+          
+</body>
+</html>
